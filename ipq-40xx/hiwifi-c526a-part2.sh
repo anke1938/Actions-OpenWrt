@@ -63,14 +63,9 @@ EOF
 # 常用软件 默认已启用
 cat >> .config <<EOF
 CONFIG_PACKAGE_luci=y
-CONFIG_PACKAGE_luci-app-passwall=y
 CONFIG_PACKAGE_luci-app-openclash=y
-CONFIG_PACKAGE_luci-app-zerotier=y
-CONFIG_PACKAGE_luci-app-ssr-plus=y
 CONFIG_PACKAGE_luci-app-nps=y
 CONFIG_PACKAGE_luci-app-frpc=y
-CONFIG_PACKAGE_luci-app-adbyby-plus=y
- CONFIG_PACKAGE_ddns-scripts_dnspod=y
 EOF
 
 # 其它
